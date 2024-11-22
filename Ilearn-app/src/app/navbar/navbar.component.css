@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sora:wght@200;300;400&display=swap');
+a { color: var(--dark);
+    text-decoration:  none;}
+    .navbar-brand { color: rgb(62, 133, 240);    font-family: 'Dancing Script', cursive;
+        font-family: 'Sora', sans-serif;
+
+    }
+    .navbar .logo { width: 160px;}
+    .navbar .nav-link {
+        font-size: 16px;
+        font-weight :700 ; color: rgb(150, 82, 34);}
+        :root {
+    --primary: #2d3138; 
+    --dark: #302a2d;
+    --body: rgb(29, 24, 24); 
+    --box-shadow: 0 8px 22px rgba(0,0,0,0,1);
+
+}

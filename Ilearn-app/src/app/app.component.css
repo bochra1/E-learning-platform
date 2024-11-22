@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sora:wght@200;300;400&display=swap');
+a { color: var(--dark);
+    text-decoration:  none;}
+    .navbar-brand { color: rgb(62, 133, 240);    font-family: 'Dancing Script', cursive;
+        font-family: 'Sora', sans-serif;
+
+    }
+    .navbar .logo { width: 160px;}
+    .navbar .nav-link {
+        font-size: 16px;
+        font-weight :700 ; color: rgb(150, 82, 34);}
+        :root {
+    --primary: #2d3138; 
+    --dark: #302a2d;
+    --body: rgb(29, 24, 24); 
+    --box-shadow: 0 8px 22px rgba(0,0,0,0,1);
+
+}
+.hero{
+    background-image: url(https://i.pinimg.com/564x/c8/67/3a/c8673ad4c46ade00cf3bd0049db62b16.jpg);
+    background-position: center;
+
+    background-size:cover ;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+.hero::after{
+    content: "";
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 20, 51, 0.8);
+    z-index: -1;
+}
